@@ -55,3 +55,7 @@ for index, row in data.iterrows():
 
 # commit to db
 connection.commit()
+
+# Dataset details
+# https://github.com/srisreedhar/DataSets/blob/master/csv-data-frames/bankloan.csv
+#
