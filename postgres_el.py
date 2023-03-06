@@ -7,7 +7,7 @@ import boto3
 import os
 
 # create connection
-# generally these are set as os.environ variables should be hardcoded
+# generally these are set as os.environ variables should not be hardcoded
 connection = psycopg2.connect(
     host='hostname',
     port='port',
